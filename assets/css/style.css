@@ -1,0 +1,121 @@
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+@import url("font-awesome.min.css");
+
+/*
+	Aerial by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/* Reset */
+
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+
+	body {
+		line-height: 1;
+	}
+
+	ol, ul {
+		list-style: none;
+	}
+
+	blockquote, q {
+		quotes: none;
+	}
+
+	blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
+
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+	body {
+		-webkit-text-size-adjust: none;
+	}
+
+
+/* Basic */
+
+	body, input, select, textarea {
+		color: #000;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 15pt;
+		font-weight: 300 !important;
+		letter-spacing: -0.025em;
+		line-height: 1.75em;
+	}
+
+/* Video BG */
+
+
+	@media screen and (max-device-width: 800px) {
+	    html {
+	         background: url(../image/bg_sailor.jpg) #000 no-repeat center center fixed;
+	    }
+	    #bgvid {
+	        display: none;
+	    }
+	}
+
+
+	video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../image/bg_sailor.jpg) no-repeat;
+    background-size: cover;
+	}
+
+/* Title */
+
+	.banner {
+		position: absolute;
+		top: 20%;
+		left: 10%;
+
+	}
+
+	.banner .title {
+		color: #ffffff;
+		text-shadow: 2px 2px #424242;
+		font-size: 10vmax;
+		font-weight: bold; !important;
+		letter-spacing: -0.025em;
+		line-height: 1.0em;
+	}
+
+
+	.banner .sub {
+		color: #424242;
+		text-shadow: none;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 4vmax;
+		font-weight: normal; !important;
+		margin-left: 40%;
+		letter-spacing: -0.025em;
+		line-height: 0.75em;
+		white-space: nowrap;
